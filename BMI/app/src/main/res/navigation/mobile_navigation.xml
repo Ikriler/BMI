@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:label="@string/title_home"
+        android:name="com.example.bmi.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_index"
+        android:name="com.example.bmi.ui.index.IndexFragment"
+        android:label="@string/title_index"
+        tools:layout="@layout/fragment_index" />
+
+    <fragment
+        android:id="@+id/navigation_itog"
+        android:name="com.example.bmi.ui.itog.ItogFragment"
+        android:label="@string/title_itog"
+        tools:layout="@layout/fragment_itog" />
+
+</navigation>
